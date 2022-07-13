@@ -8,15 +8,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var inputValueFirst: UITextField!
-    @IBOutlet weak var inputValueSecond: UITextField!
-    @IBOutlet weak var inputValueThird: UITextField!
-    @IBOutlet weak var inputValueFourth: UITextField!
-    @IBOutlet weak var inputValueFifth: UITextField!
+    @IBOutlet private weak var inputValueFirst: UITextField!
+    @IBOutlet private weak var inputValueSecond: UITextField!
+    @IBOutlet private weak var inputValueThird: UITextField!
+    @IBOutlet private weak var inputValueFourth: UITextField!
+    @IBOutlet private weak var inputValueFifth: UITextField!
     
-    @IBOutlet weak var resultValue: UILabel!
+    @IBOutlet private weak var resultValue: UILabel!
     
-    @IBAction func calculationAction(_ sender: Any) {
+    @IBAction private func calculateAction(_ sender: Any) {
         var totalArray: [Int] = []
             totalArray.append(Int(inputValueFirst.text ?? "") ?? 0)
             totalArray.append(Int(inputValueSecond.text ?? "") ?? 0)

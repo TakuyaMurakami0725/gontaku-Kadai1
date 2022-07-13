@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  task1
 //
-//  Created by 村上拓也 on 2022/07/13.
 //
 
 import UIKit
